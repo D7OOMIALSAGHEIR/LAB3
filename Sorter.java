@@ -1,4 +1,5 @@
 public class Sorter{
+    // implementation to sort numbers ascendingly using insertion sort
     public static void insertionSort(int[] array){
         for(int i = 1; i<array.length; i++){
             int temp = array[i];
@@ -10,6 +11,11 @@ public class Sorter{
         }
     }
     
+    // the following method invokes "InsertionSort" method
+    public static void callInsertionSort(int[] arr){
+        insertionSort(arr);
+    }
+
 
     
 
